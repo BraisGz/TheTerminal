@@ -1,0 +1,108 @@
+@font-face {
+    font-family: sans-serif;
+    src: url(sans-serif.ttf);
+}
+body {
+	background-color: #368ec4; 
+	font-family: sans-serif;
+	color: #666666;
+}
+.terminal {
+	width: 50%;
+	height: 500px;
+	float: left;
+	margin:2%;
+}
+.folders {
+	width: 40%;
+	height: 500px;
+	float: left;
+	margin: 2%;
+}
+.top-bar {
+	background-color: #ececec;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	padding-top: 1em;
+	height: 5%;
+}
+.buttons img {
+	width: 50px;
+	float: left;
+	padding-left: 3%;
+	position: relative;
+}
+.body-rest {
+	height: 600px;
+	background-color: #455a71;
+	padding: 2em;
+	margin-top: 25px;
+}
+.bash {
+	color:#55ff55;
+}
+.bash-rest {
+	color:white;
+}
+.bash-error {
+	color: #ff2a2a;
+}
+.bash-alert {
+	color: #f2d443;
+}
+.cursor {
+	color:#55ff55;
+	animation-name:cursor;
+	animation-duration: 0.8s;
+	animation-iteration-count: infinite;
+}
+.cursor-error {
+	color:#ff2a2a;
+	animation-name:cursor;
+	animation-duration: 0.2s;
+	animation-iteration-count: infinite;
+}
+.cursor-alert {
+	color:#f2d443;
+	animation-name:cursor;
+	animation-duration: 0.7s;
+	animation-iteration-count: infinite;
+}
+@keyframes cursor {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+a {
+	text-decoration: none;
+	color: #666666;
+}
+.folder-rest {
+	height: 200px;
+	background-color: #f9f9f9;
+	padding: 2em;
+}
+.folder-pic {
+	text-align: center;
+	width: 50%;
+	float: left;
+}
+.folder-contain {
+	text-align: center;
+	width: 25%;
+	float: left;
+	margin-bottom: 3em;
+}
+.folder-pic img {
+	width: 20%;
+}
+.folder-contain img {
+	width: 20%;
+}
+.remodal {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
